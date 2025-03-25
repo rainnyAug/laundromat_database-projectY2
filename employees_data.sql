@@ -1,3 +1,8 @@
+CREATE SEQUENCE emp_id_seq
+START WITH 0000000001
+INCREMENT BY 1
+MAXVALUE 999999999;
+
 -- Branch 1 Insert Statements
 INSERT INTO EMPLOYEES VALUES ('EMP_'||LPAD(emp_id_seq.nextval, 10, 0), 'Wachirawit', 'Dechsuwan', 'wachirawit.dechsuwan24@laundro.com', '0859968565', TO_DATE('18-01-2025', 'DD-MM-YYYY'), 1, 1);
 INSERT INTO EMPLOYEES VALUES ('EMP_'||LPAD(emp_id_seq.nextval, 10, 0), 'Nicha', 'Phanurat', 'nicha.phanurat22@laundro.com', '0840266125', TO_DATE('14-03-2024', 'DD-MM-YYYY'), 2, 1);
