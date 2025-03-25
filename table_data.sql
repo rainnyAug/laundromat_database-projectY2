@@ -75,7 +75,7 @@ CREATE TABLE CLOTHES(
 
 -- Employees table
 CREATE TABLE EMPLOYEES(
-    employee_id NUMBER(10) PRIMARY KEY,
+    employee_id VARCHAR2(25) PRIMARY KEY,
     first_name VARCHAR2(50) NOT NULL,
     last_name VARCHAR2(50) NOT NULL,
     email VARCHAR2(50) NOT NULL UNIQUE,
