@@ -75,15 +75,7 @@ CREATE TABLE CLOTHES(
 
 -- Employees table
 CREATE TABLE EMPLOYEES(
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     employee_id NUMBER(10) PRIMARY KEY,
-=======
-    employee_id VARCHAR2(25) PRIMARY KEY,
->>>>>>> Stashed changes
-=======
-    employee_id VARCHAR2(25) PRIMARY KEY,
->>>>>>> Stashed changes
     first_name VARCHAR2(50) NOT NULL,
     last_name VARCHAR2(50) NOT NULL,
     email VARCHAR2(50) NOT NULL UNIQUE,
