@@ -368,3 +368,247 @@ INSERT INTO ORDERS VALUES (order_id_seq.nextval, 30, 3, TO_DATE('12-03-2025', 'D
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 30, 3, TO_DATE('25-03-2025', 'DD-MM-YYYY'), 'Completed');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 30, 3, TO_DATE('26-03-2025', 'DD-MM-YYYY'), 'Completed');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 30, 3, TO_DATE('28-03-2025', 'DD-MM-YYYY'), 'In Progress');
+
+------------------
+
+-- Customer1 branch4
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 31, 3, TO_DATE('29-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 31, 3, TO_DATE('01-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 31, 3, TO_DATE('15-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 31, 3, TO_DATE('20-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 31, 3, TO_DATE('09-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 31, 3, TO_DATE('10-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 31, 3, TO_DATE('12-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 31, 3, TO_DATE('25-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 31, 3, TO_DATE('26-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 31, 3, TO_DATE('28-03-2025', 'DD-MM-YYYY'), 'In Progress');
+
+-- Customer2 branch4
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 32, 3, TO_DATE('03-01-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 32, 3, TO_DATE('10-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 32, 3, TO_DATE('15-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 32, 3, TO_DATE('20-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 32, 3, TO_DATE('09-02-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 32, 3, TO_DATE('11-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 32, 3, TO_DATE('12-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 32, 3, TO_DATE('14-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 32, 3, TO_DATE('16-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 32, 3, TO_DATE('30-03-2025', 'DD-MM-YYYY'), 'In Progress');
+
+-- Customer3 branch4
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 33, 3, TO_DATE('12-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 33, 3, TO_DATE('21-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 33, 3, TO_DATE('23-01-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 33, 3, TO_DATE('29-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 33, 3, TO_DATE('01-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 33, 3, TO_DATE('15-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 33, 3, TO_DATE('20-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 33, 3, TO_DATE('25-03-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 33, 3, TO_DATE('26-03-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 33, 3, TO_DATE('27-03-2025', 'DD-MM-YYYY'), 'In Progress');
+
+-- Customer4 branch4
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 34, 3, TO_DATE('06-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 34, 3, TO_DATE('10-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 34, 3, TO_DATE('15-01-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 34, 3, TO_DATE('20-01-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 34, 3, TO_DATE('09-02-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 34, 3, TO_DATE('10-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 34, 3, TO_DATE('12-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 34, 3, TO_DATE('14-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 34, 3, TO_DATE('16-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 34, 3, TO_DATE('08-03-2025', 'DD-MM-YYYY'), 'Cancelled');
+
+-- Customer5 branch4
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 35, 3, TO_DATE('29-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 35, 3, TO_DATE('01-02-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 35, 3, TO_DATE('15-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 35, 3, TO_DATE('20-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 35, 3, TO_DATE('09-02-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 35, 3, TO_DATE('10-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 35, 3, TO_DATE('12-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 35, 3, TO_DATE('25-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 35, 3, TO_DATE('26-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 35, 3, TO_DATE('28-03-2025', 'DD-MM-YYYY'), 'In Progress');
+
+-- Customer6 branch4
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 36, 3, TO_DATE('03-01-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 36, 3, TO_DATE('10-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 36, 3, TO_DATE('15-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 36, 3, TO_DATE('20-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 36, 3, TO_DATE('09-02-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 36, 3, TO_DATE('10-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 36, 3, TO_DATE('12-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 36, 3, TO_DATE('14-02-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 36, 3, TO_DATE('16-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 36, 3, TO_DATE('30-03-2025', 'DD-MM-YYYY'), 'In Progress');
+
+-- Customer7 branch4
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 37, 3, TO_DATE('29-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 37, 3, TO_DATE('29-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 37, 3, TO_DATE('01-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 37, 3, TO_DATE('15-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 37, 3, TO_DATE('20-02-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 37, 3, TO_DATE('25-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 37, 3, TO_DATE('26-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 37, 3, TO_DATE('25-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 37, 3, TO_DATE('26-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 37, 3, TO_DATE('27-03-2025', 'DD-MM-YYYY'), 'Completed');
+
+-- Customer8 branch4
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 38, 3, TO_DATE('07-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 38, 3, TO_DATE('12-01-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 38, 3, TO_DATE('14-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 38, 3, TO_DATE('19-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 38, 3, TO_DATE('22-01-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 38, 3, TO_DATE('28-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 38, 3, TO_DATE('30-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 38, 3, TO_DATE('07-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 38, 3, TO_DATE('12-02-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 38, 3, TO_DATE('14-02-2025', 'DD-MM-YYYY'), 'Completed');
+
+-- Customer9 branch4
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 39, 3, TO_DATE('13-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 39, 3, TO_DATE('23-01-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 39, 3, TO_DATE('16-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 39, 3, TO_DATE('27-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 39, 3, TO_DATE('06-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 39, 3, TO_DATE('15-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 39, 3, TO_DATE('20-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 39, 3, TO_DATE('25-03-2025', 'DD-MM-YYYY'), 'In Progress');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 39, 3, TO_DATE('26-03-2025', 'DD-MM-YYYY'), 'In Progress');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 39, 3, TO_DATE('30-03-2025', 'DD-MM-YYYY'), 'Pending');
+
+-- Customer10 branch4
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 40, 3, TO_DATE('29-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 40, 3, TO_DATE('01-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 40, 3, TO_DATE('15-02-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 40, 3, TO_DATE('20-02-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 40, 3, TO_DATE('09-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 40, 3, TO_DATE('10-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 40, 3, TO_DATE('12-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 40, 3, TO_DATE('25-03-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 40, 3, TO_DATE('26-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 40, 3, TO_DATE('28-03-2025', 'DD-MM-YYYY'), 'In Progress');
+
+------------------
+
+-- Customer1 branch5
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 41, 5, TO_DATE('29-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 41, 5, TO_DATE('29-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 41, 5, TO_DATE('01-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 41, 5, TO_DATE('15-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 41, 5, TO_DATE('20-02-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 41, 5, TO_DATE('25-02-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 41, 5, TO_DATE('26-02-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 41, 5, TO_DATE('25-03-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 41, 5, TO_DATE('26-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 41, 5, TO_DATE('27-03-2025', 'DD-MM-YYYY'), 'Completed');
+
+-- Customer2 branch5
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 42, 5, TO_DATE('07-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 42, 5, TO_DATE('12-01-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 42, 5, TO_DATE('14-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 42, 5, TO_DATE('19-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 42, 5, TO_DATE('22-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 42, 5, TO_DATE('28-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 42, 5, TO_DATE('30-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 42, 5, TO_DATE('07-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 42, 5, TO_DATE('12-02-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 42, 5, TO_DATE('14-02-2025', 'DD-MM-YYYY'), 'Completed');
+
+-- Customer3 branch5
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 43, 5, TO_DATE('07-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 43, 5, TO_DATE('12-01-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 43, 5, TO_DATE('14-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 43, 5, TO_DATE('19-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 43, 5, TO_DATE('22-01-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 43, 5, TO_DATE('28-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 43, 5, TO_DATE('30-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 43, 5, TO_DATE('07-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 43, 5, TO_DATE('12-02-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 43, 5, TO_DATE('14-02-2025', 'DD-MM-YYYY'), 'Completed');
+
+-- Customer4 branch5
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 44, 5, TO_DATE('05-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 44, 5, TO_DATE('09-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 44, 5, TO_DATE('14-02-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 44, 5, TO_DATE('22-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 44, 5, TO_DATE('28-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 44, 5, TO_DATE('15-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 44, 5, TO_DATE('20-03-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 44, 5, TO_DATE('25-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 44, 5, TO_DATE('26-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 44, 5, TO_DATE('27-03-2025', 'DD-MM-YYYY'), 'In Progress');
+
+-- Customer5 branch5
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 45, 5, TO_DATE('05-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 45, 5, TO_DATE('06-01-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 45, 5, TO_DATE('07-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 45, 5, TO_DATE('08-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 45, 5, TO_DATE('09-01-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 45, 5, TO_DATE('10-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 45, 5, TO_DATE('12-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 45, 5, TO_DATE('14-01-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 45, 5, TO_DATE('16-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 45, 5, TO_DATE('18-01-2025', 'DD-MM-YYYY'), 'Completed');
+
+-- Customer6 branch5
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 46, 5, TO_DATE('20-02-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 46, 5, TO_DATE('21-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 46, 5, TO_DATE('23-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 46, 5, TO_DATE('28-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 46, 5, TO_DATE('01-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 46, 5, TO_DATE('15-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 46, 5, TO_DATE('20-03-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 46, 5, TO_DATE('25-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 46, 5, TO_DATE('26-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 46, 5, TO_DATE('27-03-2025', 'DD-MM-YYYY'), 'In Progress');
+
+-- Customer7 branch5
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 47, 5, TO_DATE('29-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 47, 5, TO_DATE('29-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 47, 5, TO_DATE('01-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 47, 5, TO_DATE('15-02-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 47, 5, TO_DATE('20-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 47, 5, TO_DATE('25-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 47, 5, TO_DATE('26-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 47, 5, TO_DATE('15-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 47, 5, TO_DATE('18-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 47, 5, TO_DATE('29-03-2025', 'DD-MM-YYYY'), 'Cancelled');
+
+-- Customer8 branch5
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 48, 5, TO_DATE('18-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 48, 5, TO_DATE('20-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 48, 5, TO_DATE('23-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 48, 5, TO_DATE('28-02-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 48, 5, TO_DATE('01-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 48, 5, TO_DATE('05-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 48, 5, TO_DATE('15-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 48, 5, TO_DATE('22-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 48, 5, TO_DATE('26-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 48, 5, TO_DATE('27-03-2025', 'DD-MM-YYYY'), 'In Progress');
+
+-- Customer9 branch5
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 49, 5, TO_DATE('10-01-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 49, 5, TO_DATE('20-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 49, 5, TO_DATE('25-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 49, 5, TO_DATE('02-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 49, 5, TO_DATE('10-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 49, 5, TO_DATE('10-02-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 49, 5, TO_DATE('12-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 49, 5, TO_DATE('14-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 49, 5, TO_DATE('16-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 49, 5, TO_DATE('18-03-2025', 'DD-MM-YYYY'), 'Completed');
+
+-- Customer10 branch5
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 50, 5, TO_DATE('15-01-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 50, 5, TO_DATE('23-02-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 50, 5, TO_DATE('26-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 50, 5, TO_DATE('27-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 50, 5, TO_DATE('06-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 50, 5, TO_DATE('15-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 50, 5, TO_DATE('20-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 50, 5, TO_DATE('25-03-2025', 'DD-MM-YYYY'), 'In Progress');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 50, 5, TO_DATE('26-03-2025', 'DD-MM-YYYY'), 'In Progress');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 50, 5, TO_DATE('30-03-2025', 'DD-MM-YYYY'), 'Pending');
