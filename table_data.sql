@@ -91,7 +91,7 @@ CREATE TABLE EMPLOYEES(
 CREATE TABLE ORDERS_SERVICE (
     order_service_id NUMBER(12) PRIMARY KEY,
     order_id NUMBER(12) NOT NULL UNIQUE,
-    service_id NUMBER(3) NOT NULL UNIQUE,
+    service_id NUMBER(3) NOT NULL,
     CONSTRAINT order_id_fk FOREIGN KEY (order_id) REFERENCES ORDERS (order_id),
     CONSTRAINT service_id_fk FOREIGN KEY (service_id) REFERENCES SERVICES (service_id)
 );
