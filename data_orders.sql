@@ -313,7 +313,7 @@ INSERT INTO ORDERS VALUES (order_id_seq.nextval, 46, 5, TO_DATE('23-02-2025', 'D
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 14, 2, TO_DATE('23-02-2025', 'DD-MM-YYYY'), 'Cancelled');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 10, 1, TO_DATE('23-02-2025', 'DD-MM-YYYY'), 'Completed');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 50, 5, TO_DATE('23-02-2025', 'DD-MM-YYYY'), 'Cancelled');
-INSERT INTO ORDERS VALUES (order_id_seq.nextval, 20, 2, TO_DATE('23-02-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 18, 2, TO_DATE('23-02-2025', 'DD-MM-YYYY'), 'Completed');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 29, 3, TO_DATE('23-02-2025', 'DD-MM-YYYY'), 'Cancelled');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 48, 5, TO_DATE('23-02-2025', 'DD-MM-YYYY'), 'Completed');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 22, 3, TO_DATE('23-02-2025', 'DD-MM-YYYY'), 'Completed');
@@ -359,7 +359,7 @@ INSERT INTO ORDERS VALUES (order_id_seq.nextval, 50, 5, TO_DATE('06-03-2025', 'D
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 29, 3, TO_DATE('06-03-2025', 'DD-MM-YYYY'), 'Completed');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 14, 2, TO_DATE('06-03-2025', 'DD-MM-YYYY'), 'Completed');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 4, 1, TO_DATE('06-03-2025', 'DD-MM-YYYY'), 'Completed');
-INSERT INTO ORDERS VALUES (order_id_seq.nextval, 24, 3, TO_DATE('08-03-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 23, 3, TO_DATE('08-03-2025', 'DD-MM-YYYY'), 'Cancelled');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 6, 1, TO_DATE('08-03-2025', 'DD-MM-YYYY'), 'Cancelled');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 34, 3, TO_DATE('08-03-2025', 'DD-MM-YYYY'), 'Cancelled');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 16, 2, TO_DATE('08-03-2025', 'DD-MM-YYYY'), 'Cancelled');
@@ -408,7 +408,7 @@ INSERT INTO ORDERS VALUES (order_id_seq.nextval, 9, 1, TO_DATE('20-03-2025', 'DD
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 44, 5, TO_DATE('20-03-2025', 'DD-MM-YYYY'), 'Cancelled');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 29, 3, TO_DATE('20-03-2025', 'DD-MM-YYYY'), 'Completed');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 2, 1, TO_DATE('20-03-2025', 'DD-MM-YYYY'), 'Cancelled');
-INSERT INTO ORDERS VALUES (order_id_seq.nextval, 12, 2, TO_DATE('20-03-2025', 'DD-MM-YYYY'), 'Cancelled');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 18, 2, TO_DATE('20-03-2025', 'DD-MM-YYYY'), 'Cancelled');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 39, 3, TO_DATE('20-03-2025', 'DD-MM-YYYY'), 'Completed');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 50, 5, TO_DATE('20-03-2025', 'DD-MM-YYYY'), 'Completed');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 14, 2, TO_DATE('20-03-2025', 'DD-MM-YYYY'), 'Completed');
@@ -420,7 +420,7 @@ INSERT INTO ORDERS VALUES (order_id_seq.nextval, 44, 5, TO_DATE('25-03-2025', 'D
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 15, 2, TO_DATE('25-03-2025', 'DD-MM-YYYY'), 'Completed');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 29, 3, TO_DATE('25-03-2025', 'DD-MM-YYYY'), 'In Progress');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 41, 5, TO_DATE('25-03-2025', 'DD-MM-YYYY'), 'Cancelled');
-INSERT INTO ORDERS VALUES (order_id_seq.nextval, 10, 1, TO_DATE('25-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 9, 1, TO_DATE('25-03-2025', 'DD-MM-YYYY'), 'Completed');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 30, 3, TO_DATE('25-03-2025', 'DD-MM-YYYY'), 'Completed');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 31, 3, TO_DATE('25-03-2025', 'DD-MM-YYYY'), 'Completed');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 46, 5, TO_DATE('25-03-2025', 'DD-MM-YYYY'), 'Completed');
@@ -435,7 +435,7 @@ INSERT INTO ORDERS VALUES (order_id_seq.nextval, 15, 2, TO_DATE('25-03-2025', 'D
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 23, 3, TO_DATE('25-03-2025', 'DD-MM-YYYY'), 'Completed');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 22, 3, TO_DATE('25-03-2025', 'DD-MM-YYYY'), 'Completed');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 37, 3, TO_DATE('25-03-2025', 'DD-MM-YYYY'), 'Completed');
-INSERT INTO ORDERS VALUES (order_id_seq.nextval, 5, 1, TO_DATE('25-03-2025', 'DD-MM-YYYY'), 'Completed');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 4, 1, TO_DATE('25-03-2025', 'DD-MM-YYYY'), 'Completed');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 16, 2, TO_DATE('25-03-2025', 'DD-MM-YYYY'), 'In Progress');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 39, 3, TO_DATE('25-03-2025', 'DD-MM-YYYY'), 'In Progress');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 40, 3, TO_DATE('25-03-2025', 'DD-MM-YYYY'), 'Cancelled');
@@ -502,6 +502,6 @@ INSERT INTO ORDERS VALUES (order_id_seq.nextval, 25, 3, TO_DATE('30-03-2025', 'D
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 29, 3, TO_DATE('30-03-2025', 'DD-MM-YYYY'), 'Pending');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 32, 3, TO_DATE('30-03-2025', 'DD-MM-YYYY'), 'In Progress');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 36, 3, TO_DATE('30-03-2025', 'DD-MM-YYYY'), 'In Progress');
-INSERT INTO ORDERS VALUES (order_id_seq.nextval, 39, 3, TO_DATE('30-03-2025', 'DD-MM-YYYY'), 'Pending');
+INSERT INTO ORDERS VALUES (order_id_seq.nextval, 37, 3, TO_DATE('30-03-2025', 'DD-MM-YYYY'), 'Pending');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 18, 2, TO_DATE('30-03-2025', 'DD-MM-YYYY'), 'In Progress');
 INSERT INTO ORDERS VALUES (order_id_seq.nextval, 50, 5, TO_DATE('30-03-2025', 'DD-MM-YYYY'), 'Pending');
