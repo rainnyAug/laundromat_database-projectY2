@@ -48,13 +48,13 @@ CREATE TABLE ORDERS (
     customer_id NUMBER(10) NOT NULL,
     branch_id NUMBER(3) NOT NULL UNIQUE,
     order_date DATE NOT NULL,
-    order_status VARCHAR2(12) NOT NULL
+    order_status VARCHAR2(12) NOT NULL CHECK (order_status IN ('Pending', 'In Progress', 'Completed', 'Cancelled'))
 );
 
 -- Services Table
 CREATE TABLE SERVICES (
     service_id NUMBER(3) PRIMARY KEY,
-    service_name VARCHAR2(8) NOT NULL UNIQUE
+    service_name VARCHAR2(8) NOT NULL UNIQUE CHECK(service_name IN ('Wash', 'Dry', 'Iron', 'Delivery'))
 );
 
 -- Machines Table
@@ -75,7 +75,7 @@ CREATE TABLE CLOTHES(
 
 -- Employees table
 CREATE TABLE EMPLOYEES(
-    employee_id NUMBER(10) PRIMARY KEY,
+    employee_id NUMBER(12) PRIMARY KEY,
     first_name VARCHAR2(50) NOT NULL,
     last_name VARCHAR2(50) NOT NULL,
     email VARCHAR2(50) NOT NULL UNIQUE,
@@ -86,7 +86,6 @@ CREATE TABLE EMPLOYEES(
     CONSTRAINT role_id_fk FOREIGN KEY (role_id) REFERENCES roles(role_id),
     CONSTRAINT branch_id_fk FOREIGN KEY (branch_id) REFERENCES branches(branch_id)
 );
-
 
 -- Order_service Table
 CREATE TABLE ORDERS_SERVICE (
@@ -118,7 +117,7 @@ CREATE TABLE IRONING (
     CONSTRAINT order_service_id_fk FOREIGN KEY (order_service_id) REFERENCES ORDERS_SERVICE (order_service_id)
 );
 
--- Delivery_service Table
+-- Delivery Table
 CREATE TABLE DELIVERY(
     delivery_id NUMBER(12) PRIMARY KEY, 
     order_id NUMBER(12) NOT NULL UNIQUE,  
