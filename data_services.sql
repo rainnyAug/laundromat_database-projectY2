@@ -1,0 +1,6 @@
+--(service_id, service_name)
+
+INSERT INTO SERVICES  VALUES (1, 'Wash');
+INSERT INTO SERVICES  VALUES (2, 'Dry');
+INSERT INTO SERVICES  VALUES (3, 'Iron');
+INSERT INTO SERVICES  VALUES (4, 'Delivery');
