@@ -99,11 +99,11 @@ CREATE TABLE ORDERS_SERVICE (
 -- Online_WashDry Table
 CREATE TABLE ONLINE_WASHDRY (
     laundry_id NUMBER(12) PRIMARY KEY,
-    service_id NUMBER(3) NOT NULL,
+    order_service_id NUMBER(12) NOT NULL UNIQUE,
     machine_id NUMBER(3) NOT NULL,
     temperature VARCHAR2(5),
     price NUMBER(10) NOT NULL,
-    CONSTRAINT service_id_fk FOREIGN KEY (service_id) REFERENCES SERVICES (service_id),
+    CONSTRAINT service_id_fk FOREIGN KEY (service_id) REFERENCES SERVICES (order_service_id),
     CONSTRAINT machine_id_fk FOREIGN KEY (machine_id) REFERENCES MACHINES (machine_id)
 );
 
