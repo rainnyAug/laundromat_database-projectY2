@@ -32,9 +32,9 @@ INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 24, 'Cash', NUMBER, '
 INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 25, 'Cash', NUMBER, 'Completed', TO_DATE('08-01-2025', 'DD-MM-YYYY'));
 INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 26, 'Cash', NUMBER, 'Completed', TO_DATE('08-01-2025', 'DD-MM-YYYY'));
 INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 27, 'Cash', NUMBER, 'Completed', TO_DATE('08-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 28, 'Cash', NUMBER, 'Failedd', TO_DATE('09-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 29, 'Cash', NUMBER, 'Failedd', TO_DATE('09-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 30, 'Cash', NUMBER, 'Failedd', TO_DATE('09-01-2025', 'DD-MM-YYYY'));
+INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 28, 'Cash', NUMBER, 'Failed', TO_DATE('09-01-2025', 'DD-MM-YYYY'));
+INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 29, 'Cash', NUMBER, 'Failed', TO_DATE('09-01-2025', 'DD-MM-YYYY'));
+INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 30, 'Cash', NUMBER, 'Failed', TO_DATE('09-01-2025', 'DD-MM-YYYY'));
 INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 31, 'Cash', NUMBER, 'Completed', TO_DATE('10-01-2025', 'DD-MM-YYYY'));
 INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 32, 'Cash', NUMBER, 'Completed', TO_DATE('10-01-2025', 'DD-MM-YYYY'));
 INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 33, 'Cash', NUMBER, 'Completed', TO_DATE('10-01-2025', 'DD-MM-YYYY'));
