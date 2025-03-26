@@ -52,22 +52,29 @@ INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 11, 4);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 12, 1);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 12, 2);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 12, 3);
+
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 13, 1);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 13, 2);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 13, 4);
+
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 14, 1);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 14, 2);
+
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 15, 1);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 15, 2);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 15, 3);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 15, 4);
+
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 16, 1);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 16, 2);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 16, 4);
+
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 17, 1);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 17, 2);
+
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 18, 1);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 18, 2);
+
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 19, 1);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 19, 2);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 19, 3);
@@ -121,9 +128,11 @@ INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 35, 2);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 36, 1);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 36, 2);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 36, 4);
+
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 37, 1);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 37, 2);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 37, 4);
+
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 38, 1);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 38, 2);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 39, 1);
@@ -131,6 +140,7 @@ INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 39, 2);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 40, 1);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 40, 2);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 40, 4);
+
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 41, 1);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 41, 2);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 42, 1);
@@ -140,22 +150,27 @@ INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 43, 2);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 44, 1);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 44, 2);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 44, 4);
+
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 45, 1);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 45, 2);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 46, 1);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 46, 2);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 46, 3);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 46, 4);
+
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 47, 1);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 47, 2);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 47, 3);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 47, 4);
+
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 48, 1);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 48, 2);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 48, 3);
+
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 49, 1);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 49, 2);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 49, 3);
+
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 50, 1);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 50, 2);
 INSERT INTO ORDERS_SERVICE VALUES (order_service_id_seq.nextval, 50, 3);
