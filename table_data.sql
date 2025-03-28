@@ -81,8 +81,8 @@ CREATE TABLE EMPLOYEES(
     email VARCHAR2(50) NOT NULL UNIQUE,
     phone_num VARCHAR2(10) NOT NULL,
     hire_date DATE DEFAULT SYSDATE NOT NULL,
-    role_id NUMBER(5) NOT NULL UNIQUE,
-    branch_id NUMBER(5) NOT NULL UNIQUE,  
+    role_id NUMBER(5) NOT NULL,
+    branch_id NUMBER(5) NOT NULL,
     CONSTRAINT role_id_fk FOREIGN KEY (role_id) REFERENCES roles(role_id),
     CONSTRAINT branch_id_fk2 FOREIGN KEY (branch_id) REFERENCES branches(branch_id)
 );
