@@ -1,7 +1,7 @@
 CREATE SEQUENCE cust_id_seq
-START WITH 0000000001
+START WITH 00000001
 INCREMENT BY 1
-MAXVALUE 999999999;
+MAXVALUE 9999999;
 
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Pakin', 'Chen', '0812345678', NULL);
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Kanoknuch', 'Wannawong', '0819876543', NULL);
@@ -9,47 +9,47 @@ INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Wassachol', 'Saetae', '081543
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Chanya', 'Pujanjaeng', '0816784321', NULL);
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Kanokpon', 'YordThong', '0817927892', NULL);
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Pinkamol', 'Settharattanasuwan', '0972593458', NULL);
-INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Pongsatorn', 'Kingmanee', '0817654321', 'MEM_0000000001');
+INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Pongsatorn', 'Kingmanee', '0817654321', 'MEM_00000001');
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Tayada', 'Kingmanee', '0813456789', NULL);
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Sirilak', 'Settharattanapong', '0818765432', NULL);
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Kornnapat', 'Settharattanapong', '0812348765', NULL);
-INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Passorn', 'Pibul', '0819871234', 'MEM_0000000002');
-INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Somjit', 'Pinfun', '0814321876', 'MEM_0000000003');
+INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Passorn', 'Pibul', '0819871234', 'MEM_00000002');
+INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Somjit', 'Pinfun', '0814321876', 'MEM_00000003');
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Wittaya', 'Sombun', '0815678912', NULL);
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Udom', 'Kanya', '0816543278', NULL);
-INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Preecha', 'Waraya', '0817896543', 'MEM_0000000004');
+INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Preecha', 'Waraya', '0817896543', 'MEM_00000004');
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Jumren', 'Udonsri', '0813218765', NULL);
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Siripon', 'Junjam', '0814321987', NULL);
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Sawas', 'Techaakkarachai', '0818762190', NULL);
-INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Chokchai', 'Chen', '0819087654', 'MEM_0000000005');
-INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Chatchai', 'Cherdchai', '0812675432', 'MEM_0000000006');
-INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Pakin', 'Imdee', '0813456781', 'MEM_0000000007');
-INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Pinkamol', 'Saeteaw', '0815432167', 'MEM_0000000008');
-INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Sethtah', 'Saeteaw', '0816789543', 'MEM_0000000009');
+INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Chokchai', 'Chen', '0819087654', 'MEM_00000005');
+INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Chatchai', 'Cherdchai', '0812675432', 'MEM_00000006');
+INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Pakin', 'Imdee', '0813456781', 'MEM_00000007');
+INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Pinkamol', 'Saeteaw', '0815432167', 'MEM_00000008');
+INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Sethtah', 'Saeteaw', '0816789543', 'MEM_00000009');
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Bussaba', 'Kasetarawittaya', '0819012345', NULL);
-INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Wittaya', 'Wongwai', '0817894321', 'MEM_0000000010');
+INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Wittaya', 'Wongwai', '0817894321', 'MEM_00000010');
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Udomrat', 'Chadakorn', '0814321567', NULL);
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Cattareya', 'Kasintongjai', '0912345678', NULL);
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Pakhwan', 'Jerdpanida', '0919876543', NULL);
-INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Chalalai', 'Chomtrue', '0915432198', 'MEM_0000000011');
+INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Chalalai', 'Chomtrue', '0915432198', 'MEM_00000011');
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Pinkeaw', 'Klaewpai', '0916784321', NULL);
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Jenjira', 'Sukanya', '0917654321', NULL);
-INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Kanoknat', 'Sombun', '0913456789', 'MEM_0000000012');
-INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Paemika', 'Taothong', '0918765432', 'MEM_0000000013');
+INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Kanoknat', 'Sombun', '0913456789', 'MEM_00000012');
+INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Paemika', 'Taothong', '0918765432', 'MEM_00000013');
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Chalerm', 'Sombunpol', '0912348765', NULL);
-INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Atibodee', 'Klinsri', '0919871234', 'MEM_0000000014');
+INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Atibodee', 'Klinsri', '0919871234', 'MEM_00000014');
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Haruethai', 'Mhuenjitr', '0914321876', NULL);
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Kanyada', 'Wattahawirong', '0915678912', NULL);
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Sompong', 'Duangruedee', '0916543278', NULL);
-INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Surasak', 'Montra', '0917896543', 'MEM_0000000015');
+INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Surasak', 'Montra', '0917896543', 'MEM_00000015');
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Prasith', 'Sae-O', '0913218765', NULL);
-INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Samart', 'Saehuang', '0914321987', 'MEM_0000000016');
+INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Samart', 'Saehuang', '0914321987', 'MEM_00000016');
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Somchai', 'Saehuang', '0918762190', NULL);
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Vichan', 'Sae-O', '0919087654', NULL);
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Krek', 'Satiantum', '0912675432', NULL);
-INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Jinatta', 'Sermheng', '0913456781', 'MEM_0000000017');
+INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Jinatta', 'Sermheng', '0913456781', 'MEM_00000017');
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Jirayu', 'Chevasupawat', '0915432167', NULL);
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Yodchai', 'Taothong', '0916789543', NULL);
-INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Siriwan', 'Klaopon', '0919012345', 'MEM_0000000018');
-INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Sukon', 'Chuenaksorn', '0917894321', 'MEM_0000000019');
-INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Lilin', 'Zheng', '0914321567', 'MEM_0000000020');
+INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Siriwan', 'Klaopon', '0919012345', 'MEM_00000018');
+INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Sukon', 'Chuenaksorn', '0917894321', 'MEM_00000019');
+INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Lilin', 'Zheng', '0914321567', 'MEM_00000020');
