@@ -90,7 +90,7 @@ CREATE TABLE EMPLOYEES(
 -- Order_service Table
 CREATE TABLE ORDERS_SERVICE (
     order_service_id NUMBER(12) PRIMARY KEY,
-    order_id NUMBER(12) NOT NULL UNIQUE,
+    order_id NUMBER(12) NOT NULL,
     service_id NUMBER(3) NOT NULL,
     CONSTRAINT order_id_fk1 FOREIGN KEY (order_id) REFERENCES ORDERS (order_id),
     CONSTRAINT service_id_fk FOREIGN KEY (service_id) REFERENCES SERVICES (service_id)
@@ -103,7 +103,7 @@ CREATE TABLE ONLINE_WASHDRY (
     machine_id NUMBER(3) NOT NULL,
     temperature VARCHAR2(5),
     price NUMBER(10) NOT NULL,
-    CONSTRAINT service_id_fk FOREIGN KEY (service_id) REFERENCES SERVICES (order_service_id),
+    CONSTRAINT order_service_id_fk FOREIGN KEY (order_service_id) REFERENCES ORDERS_SERVICE (order_service_id),
     CONSTRAINT machine_id_fk1 FOREIGN KEY (machine_id) REFERENCES MACHINES (machine_id)
 );
 
