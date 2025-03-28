@@ -46,7 +46,7 @@ CREATE TABLE CUSTOMERS (
 CREATE TABLE ORDERS (
     order_id NUMBER(12) PRIMARY KEY,
     customer_id NUMBER(10) NOT NULL,
-    branch_id NUMBER(3) NOT NULL UNIQUE,
+    branch_id NUMBER(3) NOT NULL,
     order_date DATE NOT NULL,
     order_status VARCHAR2(12) NOT NULL CHECK (order_status IN ('Pending', 'In Progress', 'Completed', 'Cancelled'))
 );
