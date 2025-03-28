@@ -63,7 +63,7 @@ CREATE TABLE MACHINES (
     branch_id NUMBER(5) NOT NULL,
     machine_type VARCHAR2(6) NOT NULL CHECK (machine_type IN ('Washer', 'Dryer')),
     machine_weight VARCHAR2(6) NOT NULL CHECK (machine_weight IN ('Small', 'Medium', 'Large')),
-    CONSTRAINT branch_id_fk FOREIGN KEY (branch_id) REFERENCES BRANCHES (branch_id)
+    CONSTRAINT branch_id_fk1 FOREIGN KEY (branch_id) REFERENCES BRANCHES (branch_id)
 );
 
 -- Clothes Table
@@ -84,7 +84,7 @@ CREATE TABLE EMPLOYEES(
     role_id NUMBER(5) NOT NULL UNIQUE,
     branch_id NUMBER(5) NOT NULL UNIQUE,  
     CONSTRAINT role_id_fk FOREIGN KEY (role_id) REFERENCES roles(role_id),
-    CONSTRAINT branch_id_fk FOREIGN KEY (branch_id) REFERENCES branches(branch_id)
+    CONSTRAINT branch_id_fk2 FOREIGN KEY (branch_id) REFERENCES branches(branch_id)
 );
 
 -- Order_service Table
@@ -92,7 +92,7 @@ CREATE TABLE ORDERS_SERVICE (
     order_service_id NUMBER(12) PRIMARY KEY,
     order_id NUMBER(12) NOT NULL UNIQUE,
     service_id NUMBER(3) NOT NULL,
-    CONSTRAINT order_id_fk FOREIGN KEY (order_id) REFERENCES ORDERS (order_id),
+    CONSTRAINT order_id_fk1 FOREIGN KEY (order_id) REFERENCES ORDERS (order_id),
     CONSTRAINT service_id_fk FOREIGN KEY (service_id) REFERENCES SERVICES (service_id)
 );
 
@@ -104,7 +104,7 @@ CREATE TABLE ONLINE_WASHDRY (
     temperature VARCHAR2(5),
     price NUMBER(10) NOT NULL,
     CONSTRAINT service_id_fk FOREIGN KEY (service_id) REFERENCES SERVICES (order_service_id),
-    CONSTRAINT machine_id_fk FOREIGN KEY (machine_id) REFERENCES MACHINES (machine_id)
+    CONSTRAINT machine_id_fk1 FOREIGN KEY (machine_id) REFERENCES MACHINES (machine_id)
 );
 
 -- Ironing Table
@@ -114,7 +114,7 @@ CREATE TABLE IRONING (
     clothes_id NUMBER(3) NOT NULL,
     quantity NUMBER(4) NOT NULL,
     total_amount NUMBER(10, 2) NOT NULL,
-    CONSTRAINT order_service_id_fk FOREIGN KEY (order_service_id) REFERENCES ORDERS_SERVICE (order_service_id)
+    CONSTRAINT order_service_id_fk1 FOREIGN KEY (order_service_id) REFERENCES ORDERS_SERVICE (order_service_id)
 );
 
 -- Delivery Table
@@ -127,7 +127,7 @@ CREATE TABLE DELIVERY(
     postal_code VARCHAR2(5) NOT NULL,
     pickup_time TIMESTAMP DEFAULT SYSTIMESTAMP NOT NULL,
     dropoff_time TIMESTAMP DEFAULT SYSTIMESTAMP NOT NULL,
-    CONSTRAINT order_service_id_fk FOREIGN KEY (order_service_id) REFERENCES ORDERS_SERVICE (order_service_id)
+    CONSTRAINT order_service_id_fk2 FOREIGN KEY (order_service_id) REFERENCES ORDERS_SERVICE (order_service_id)
 );
 
 -- Orders_payment table
@@ -138,7 +138,7 @@ CREATE TABLE ORDERS_PAYMENT(
     total_amount NUMBER(10, 2) NOT NULL,
     status VARCHAR2(10) CHECK (status IN ('Pending','Completed', 'Failed')),
     Pay_Date DATE DEFAULT SYSDATE NOT NULL,
-    CONSTRAINT order_id_fk FOREIGN KEY (order_id) REFERENCES ORDERS (order_id)
+    CONSTRAINT order_id_fk2 FOREIGN KEY (order_id) REFERENCES ORDERS (order_id)
 );
 
 -- Machine transaction table
@@ -149,7 +149,7 @@ CREATE TABLE MACHINE_TRANSACTION(
     payment_method VARCHAR2(10) CHECK (payment_method IN ('Cash', 'E-wallet')),
     price NUMBER(2) NOT NULL,
     created_on DATE DEFAULT SYSDATE NOT NULL, 
-    CONSTRAINT branch_id_fk FOREIGN KEY(branch_id) REFERENCES branches(branch_id),
-    CONSTRAINT machine_id_fk FOREIGN KEY(machine_id) REFERENCES machines(machine_id)
+    CONSTRAINT branch_id_fk3 FOREIGN KEY(branch_id) REFERENCES branches(branch_id),
+    CONSTRAINT machine_id_fk2 FOREIGN KEY(machine_id) REFERENCES machines(machine_id)
 );
 
