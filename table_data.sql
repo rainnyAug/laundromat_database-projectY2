@@ -140,7 +140,7 @@ CREATE TABLE ORDERS_PAYMENT(
     orders_payment_id NUMBER(12) PRIMARY KEY,
     order_id NUMBER(12) NOT NULL UNIQUE,
     payment_method VARCHAR2(12) NOT NULL CHECK(payment_method IN ('Cash', 'Card','Prompt pay')),
-    total_amount NUMBER(10, 2) NOT NULL,
+    total_amount NUMBER(10, 2),
     status VARCHAR2(10) CHECK (status IN ('Pending','Completed', 'Failed')),
     Pay_Date DATE DEFAULT SYSDATE,
     CONSTRAINT order_id_fk4 FOREIGN KEY (order_id) REFERENCES ORDERS (order_id)
