@@ -122,6 +122,7 @@ CREATE TABLE IRONING (
 -- Delivery Table
 CREATE TABLE DELIVERY(
     delivery_id NUMBER(12) PRIMARY KEY, 
+    order_service_id NUMBER(12) NOT NULL,
     order_id NUMBER(12) NOT NULL,
     street_address VARCHAR2(120) NOT NULL,
     district VARCHAR2(60) NOT NULL,
@@ -130,6 +131,7 @@ CREATE TABLE DELIVERY(
     pickup_time TIMESTAMP DEFAULT SYSTIMESTAMP NOT NULL,
     dropoff_time TIMESTAMP DEFAULT SYSTIMESTAMP NOT NULL,
     Price NUMBER(5, 2) NOT NULL,
+    CONSTRAINT order_service_id_fk2 FOREIGN KEY (order_service_id) REFERENCES ORDERS_SERVICE (order_service_id),
     CONSTRAINT order_id_fk3 FOREIGN KEY (order_id) REFERENCES ORDERS (order_id)
 );
 
