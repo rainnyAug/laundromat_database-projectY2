@@ -122,39 +122,39 @@ INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 108, 37, 60, NULL, 6
 INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 110, 38, 49, 'Cold', 50);
 INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 111, 38, 58, NULL, 50);
 
-INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 110, 39, 46, 'Cold', 40);
-INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 111, 39, 55, NULL, 40);
+INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 112, 39, 46, 'Cold', 40);
+INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 113, 39, 55, NULL, 40);
 
-INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 112, 40, 47, 'Cold', 40);
-INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 113, 40, 56, NULL, 40);
+INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 114, 40, 47, 'Cold', 40);
+INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 115, 40, 56, NULL, 40);
 
 -- 41 - 50
-INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 114, 41, 53, 'Cold', 60);
-INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 115, 41, 59, NULL, 60);
+INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 117, 41, 69, 'Cold', 60);
+INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 118, 41, 74, NULL, 60);
 
-INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 117, 42, 61, 'Cold', 40);
-INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 118, 42, 71, NULL, 40);
+INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 119, 42, 61, 'Cold', 40);
+INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 120, 42, 71, NULL, 40);
 
-INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 119, 43, 62, 'Cold', 40);
-INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 120, 43, 70, NULL, 40);
+INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 121, 43, 62, 'Cold', 40);
+INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 122, 43, 70, NULL, 40);
 
-INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 121, 44, 63, 'Cold', 40);
-INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 122, 44, 71, NULL, 40);
+INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 123, 44, 63, 'Cold', 40);
+INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 124, 44, 71, NULL, 40);
 
-INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 123, 45, 67, 'Cold', 60);
-INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 124, 45, 74, NULL, 60);
+INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 126, 45, 67, 'Cold', 60);
+INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 127, 45, 74, NULL, 60);
 
-INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 126, 46, 66, 'Cold', 50);
-INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 127, 46, 72, NULL, 50);
+INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 128, 46, 66, 'Cold', 50);
+INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 129, 46, 72, NULL, 50);
 
-INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 128, 47, 61, 'Cold', 40);
-INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 129, 47, 71, NULL, 40);
+INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 132, 47, 61, 'Cold', 40);
+INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 133, 47, 71, NULL, 40);
 
-INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 132, 48, 64, 'Cold', 50);
-INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 133, 48, 72, NULL, 50);
+INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 136, 48, 64, 'Cold', 50);
+INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 137, 48, 72, NULL, 50);
 
-INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 136, 49, 62, 'Cold', 40);
-INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 137, 49, 70, NULL, 40);
+INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 139, 49, 62, 'Cold', 40);
+INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 140, 49, 70, NULL, 40);
 
-INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 139, 50, 63, 'Cold', 40);
-INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 140, 50, 71, NULL, 40);
+INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 142, 50, 63, 'Cold', 40);
+INSERT INTO ONLINE_WASHDRY VALUES(online_wd_id_seq.nextval, 143, 50, 71, NULL, 40);

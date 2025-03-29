@@ -100,10 +100,12 @@ CREATE TABLE ORDERS_SERVICE (
 CREATE TABLE ONLINE_WASHDRY (
     laundry_id NUMBER(12) PRIMARY KEY,
     order_service_id NUMBER(12) NOT NULL UNIQUE,
+    order_id NUMBER(12) NOT NULL,
     machine_id NUMBER(3) NOT NULL,
     temperature VARCHAR2(5),
     price NUMBER(10) NOT NULL,
     CONSTRAINT order_service_id_fk FOREIGN KEY (order_service_id) REFERENCES ORDERS_SERVICE (order_service_id),
+    CONSTRAINT order_id_fk2 FOREIGN KEY (order_id) REFERENCES ORDERS (order_id),
     CONSTRAINT machine_id_fk1 FOREIGN KEY (machine_id) REFERENCES MACHINES (machine_id)
 );
 
@@ -121,6 +123,7 @@ CREATE TABLE IRONING (
 CREATE TABLE DELIVERY(
     delivery_id NUMBER(12) PRIMARY KEY, 
     order_service_id NUMBER(12) NOT NULL,
+    order_id NUMBER(12) NOT NULL,
     street_address VARCHAR2(120) NOT NULL,
     district VARCHAR2(60) NOT NULL,
     province VARCHAR2(50) NOT NULL,
@@ -128,7 +131,8 @@ CREATE TABLE DELIVERY(
     pickup_time TIMESTAMP DEFAULT SYSTIMESTAMP NOT NULL,
     dropoff_time TIMESTAMP DEFAULT SYSTIMESTAMP NOT NULL,
     Price NUMBER(5, 2) NOT NULL,
-    CONSTRAINT order_service_id_fk2 FOREIGN KEY (order_service_id) REFERENCES ORDERS_SERVICE (order_service_id)
+    CONSTRAINT order_service_id_fk2 FOREIGN KEY (order_service_id) REFERENCES ORDERS_SERVICE (order_service_id),
+    CONSTRAINT order_id_fk3 FOREIGN KEY (order_id) REFERENCES ORDERS (order_id)
 );
 
 -- Orders_payment table
@@ -139,17 +143,18 @@ CREATE TABLE ORDERS_PAYMENT(
     total_amount NUMBER(10, 2) NOT NULL,
     status VARCHAR2(10) CHECK (status IN ('Pending','Completed', 'Failed')),
     Pay_Date DATE DEFAULT SYSDATE,
-    CONSTRAINT order_id_fk2 FOREIGN KEY (order_id) REFERENCES ORDERS (order_id)
+    CONSTRAINT order_id_fk4 FOREIGN KEY (order_id) REFERENCES ORDERS (order_id)
 );
 
 -- Machine transaction table
 CREATE TABLE MACHINE_TRANSACTION(
     machine_transaction_id NUMBER(12) PRIMARY KEY,
     machine_id NUMBER(3) NOT NULL,
+    branch_id NUMBER(5) NOT NULL,
     payment_method VARCHAR2(10) CHECK (payment_method IN ('Cash', 'E-wallet')),
     price NUMBER(2) NOT NULL,
     created_on DATE DEFAULT SYSDATE NOT NULL, 
-    CONSTRAINT branch_id_fk3 FOREIGN KEY(branch_id) REFERENCES branches(branch_id),
-    CONSTRAINT machine_id_fk2 FOREIGN KEY(machine_id) REFERENCES machines(machine_id)
+    CONSTRAINT machine_id_fk2 FOREIGN KEY(machine_id) REFERENCES machines(machine_id),
+    CONSTRAINT branch_id_fk3 FOREIGN KEY(branch_id) REFERENCES branches(branch_id)
 );
 
