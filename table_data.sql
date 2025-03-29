@@ -48,7 +48,9 @@ CREATE TABLE ORDERS (
     customer_id NUMBER(10) NOT NULL,
     branch_id NUMBER(3) NOT NULL,
     order_date DATE NOT NULL,
-    order_status VARCHAR2(12) NOT NULL CHECK (order_status IN ('Pending', 'In Progress', 'Completed', 'Cancelled'))
+    order_status VARCHAR2(12) NOT NULL CHECK (order_status IN ('Pending', 'In Progress', 'Completed', 'Cancelled')),
+    CONSTRAINT customer_id_fk FOREIGN KEY (customer_id) REFERENCES CUSTOMERS (customer_id),
+    CONSTRAINT branch_id_fk4 FOREIGN KEY (branch_id) REFERENCES BRANCHES (branch_id)
 );
 
 -- Services Table
@@ -116,7 +118,8 @@ CREATE TABLE IRONING (
     clothes_id NUMBER(3) NOT NULL,
     quantity NUMBER(4) NOT NULL,
     total_amount NUMBER(10, 2) NOT NULL,
-    CONSTRAINT order_service_id_fk1 FOREIGN KEY (order_service_id) REFERENCES ORDERS_SERVICE (order_service_id)
+    CONSTRAINT order_service_id_fk1 FOREIGN KEY (order_service_id) REFERENCES ORDERS_SERVICE (order_service_id),
+    CONSTRAINT clothes_id_fk FOREIGN KEY (clothes_id) REFERENCES CLOTHES (clothes_id)
 );
 
 -- Delivery Table
