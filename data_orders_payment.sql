@@ -3,55 +3,77 @@ START WITH 0000000001
 INCREMENT BY 1
 MAXVALUE 999999999;
 -- Orders_payment_id, Order_id, Payment_method, Total amount, Status, Pay_Date
--- (will be continue 'payment_method' and 'Total')
 
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 1, 'Prompt pay', NUMBER, 'Completed', TO_DATE('03-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 2, 'Card', NUMBER, 'Failed', NULL);
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 3, 'Prompt pay', NUMBER, 'Failed', NULL);
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 4, 'Prompt pay', NUMBER, 'Failed', NULL);
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 5, 'Prompt pay', NUMBER, 'Failed', NULL);
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 6, 'Cash', NUMBER, 'Failed', NULL);
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 7, 'Prompt pay', NUMBER, 'Completed', TO_DATE('06-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 8, 'Prompt pay', NUMBER, 'Completed', TO_DATE('06-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 9, 'Prompt pay', NUMBER, 'Completed', TO_DATE('07-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 10, 'Card', NUMBER, 'Failed', NULL);
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 11, 'Prompt pay', NUMBER, 'Failed', NULL);
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 12, 'Prompt pay', NUMBER, 'Completed', TO_DATE('08-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 13, 'Card', NUMBER, 'Failed', NULL);
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 14, 'Card', NUMBER, 'Completed', TO_DATE('09-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 15, 'Prompt pay', NUMBER, 'Completed', TO_DATE('10-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 16, 'Prompt pay', NUMBER, 'Completed', TO_DATE('10-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 17, 'Prompt pay', NUMBER, 'Completed', TO_DATE('11-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 18, 'Prompt pay', NUMBER, 'Completed', TO_DATE('11-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 19, 'Cash', NUMBER, 'Completed', TO_DATE('12-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 20, 'Prompt pay', NUMBER, 'Completed', TO_DATE('12-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 21, 'Prompt pay', NUMBER, 'Completed', TO_DATE('13-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 22, 'Prompt pay', NUMBER, 'Completed', TO_DATE('13-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 23, 'Card', NUMBER, 'Completed', TO_DATE('14-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 24, 'Card', NUMBER, 'Completed', TO_DATE('14-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 25, 'Cash', NUMBER, 'Completed', TO_DATE('15-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 26, 'Cash', NUMBER, 'Completed', TO_DATE('15-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 27, 'Prompt pay', NUMBER, 'Completed', TO_DATE('16-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 28, 'Prompt pay', NUMBER, 'Failed', NULL);
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 29, 'Prompt pay', NUMBER, 'Failed', NULL);
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 30, 'Prompt pay', NUMBER, 'Failed', NULL);
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 31, 'Prompt pay', NUMBER, 'Completed', TO_DATE('18-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 32, 'Prompt pay', NUMBER, 'Completed', TO_DATE('18-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 33, 'Prompt pay', NUMBER, 'Completed', TO_DATE('19-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 34, 'Card', NUMBER, 'Completed', TO_DATE('20-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 35, 'Prompt pay', NUMBER, 'Completed', TO_DATE('21-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 36, 'Cash', NUMBER, 'Completed', TO_DATE('22-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 37, 'Cash', NUMBER, 'Failed', NULL);
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 38, 'Cash', NUMBER, 'Completed', TO_DATE('23-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 39, 'Prompt pay', NUMBER, 'Completed', TO_DATE('23-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 40, 'Prompt pay', NUMBER, 'Completed', TO_DATE('24-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 41, 'Prompt pay', NUMBER, 'Completed', TO_DATE('24-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 42, 'Prompt pay', NUMBER, 'Completed', TO_DATE('25-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 43, 'Prompt pay', NUMBER, 'Failed', NULL);
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 44, 'Prompt pay', NUMBER, 'Failed', NULL);
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 45, 'Prompt pay', NUMBER, 'Completed', TO_DATE('26-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 46, 'Cash', NUMBER, 'Completed', TO_DATE('27-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 47, 'Cash', NUMBER, 'Completed', TO_DATE('27-01-2025', 'DD-MM-YYYY'));
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 48, 'Prompt pay', NUMBER, 'Pending', NULL);
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 49, 'Prompt pay', NUMBER, 'Pending', NULL);
-INSERT INTO ORDERS_PAYMENT VALUES (orders_pay_seq.nextval, 50, 'Prompt pay', NUMBER, 'Pending', NULL);
+INSERT INTO ORDERS_PAYMENT
+SELECT 
+    orders_pay_seq.NEXTVAL,
+    order_id,
+    payment_method,
+    total_amount,
+    status,
+    pay_date
+FROM (
+    SELECT 
+        o.order_id,
+        CASE
+            WHEN o.order_id IN (2, 10, 13, 14, 23, 24, 34) THEN 'Card'
+            WHEN o.order_id IN (6, 19, 25, 26, 36, 37, 38, 46, 47) THEN 'Cash'
+        ELSE 'Prompt pay'
+        END AS payment_method,
+        CASE 
+            WHEN o.order_status = 'Cancelled' THEN NULL
+            ELSE (NVL(SUM(i.total_amount), 0) + NVL(SUM(wd.price), 0) + NVL(SUM(d.price), 0)) 
+                 * (1 - NVL(m.discount_rate, 0))
+        END AS total_amount,
+        CASE
+            WHEN o.order_id IN (2, 3, 4, 5, 6, 10, 11, 13, 28, 29, 30, 37, 43, 44) THEN 'Failed'
+            WHEN o.order_id IN (48, 49, 50) THEN 'Pending'
+            ELSE 'Completed'
+        END AS status,
+        CASE o.order_id
+            WHEN 1 THEN TO_DATE('03-01-2025', 'DD-MM-YYYY')
+            WHEN 7 THEN TO_DATE('06-01-2025', 'DD-MM-YYYY')
+            WHEN 8 THEN TO_DATE('06-01-2025', 'DD-MM-YYYY')
+            WHEN 9 THEN TO_DATE('07-01-2025', 'DD-MM-YYYY')
+            WHEN 12 THEN TO_DATE('08-01-2025', 'DD-MM-YYYY')
+            WHEN 14 THEN TO_DATE('09-01-2025', 'DD-MM-YYYY')
+            WHEN 15 THEN TO_DATE('10-01-2025', 'DD-MM-YYYY')
+            WHEN 16 THEN TO_DATE('10-01-2025', 'DD-MM-YYYY')
+            WHEN 17 THEN TO_DATE('11-01-2025', 'DD-MM-YYYY')
+            WHEN 18 THEN TO_DATE('11-01-2025', 'DD-MM-YYYY')
+            WHEN 19 THEN TO_DATE('12-01-2025', 'DD-MM-YYYY')
+            WHEN 20 THEN TO_DATE('12-01-2025', 'DD-MM-YYYY')
+            WHEN 21 THEN TO_DATE('13-01-2025', 'DD-MM-YYYY')
+            WHEN 22 THEN TO_DATE('13-01-2025', 'DD-MM-YYYY')
+            WHEN 23 THEN TO_DATE('14-01-2025', 'DD-MM-YYYY')
+            WHEN 24 THEN TO_DATE('14-01-2025', 'DD-MM-YYYY')
+            WHEN 25 THEN TO_DATE('15-01-2025', 'DD-MM-YYYY')
+            WHEN 26 THEN TO_DATE('15-01-2025', 'DD-MM-YYYY')
+            WHEN 27 THEN TO_DATE('16-01-2025', 'DD-MM-YYYY')
+            WHEN 31 THEN TO_DATE('18-01-2025', 'DD-MM-YYYY')
+            WHEN 32 THEN TO_DATE('18-01-2025', 'DD-MM-YYYY')
+            WHEN 33 THEN TO_DATE('19-01-2025', 'DD-MM-YYYY')
+            WHEN 34 THEN TO_DATE('20-01-2025', 'DD-MM-YYYY')
+            WHEN 35 THEN TO_DATE('21-01-2025', 'DD-MM-YYYY')
+            WHEN 36 THEN TO_DATE('22-01-2025', 'DD-MM-YYYY')
+            WHEN 38 THEN TO_DATE('23-01-2025', 'DD-MM-YYYY')
+            WHEN 39 THEN TO_DATE('23-01-2025', 'DD-MM-YYYY')
+            WHEN 40 THEN TO_DATE('24-01-2025', 'DD-MM-YYYY')
+            WHEN 41 THEN TO_DATE('24-01-2025', 'DD-MM-YYYY')
+            WHEN 42 THEN TO_DATE('25-01-2025', 'DD-MM-YYYY')
+            WHEN 45 THEN TO_DATE('26-01-2025', 'DD-MM-YYYY')
+            WHEN 46 THEN TO_DATE('27-01-2025', 'DD-MM-YYYY')
+            WHEN 47 THEN TO_DATE('27-01-2025', 'DD-MM-YYYY')
+            ELSE NULL
+        END AS pay_date
+    FROM ORDERS o
+    LEFT JOIN ORDERS_SERVICE os ON o.order_id = os.order_id
+    LEFT JOIN IRONING i ON os.order_service_id = i.order_service_id
+    LEFT JOIN ONLINE_WASHDRY wd ON os.order_service_id = wd.order_service_id
+    LEFT JOIN DELIVERY d ON os.order_service_id = d.order_service_id
+    LEFT JOIN CUSTOMERS c ON o.customer_id = c.customer_id
+    LEFT JOIN MEMBERSHIPS m ON c.membership_id = m.membership_id
+    WHERE o.order_id BETWEEN 1 AND 50
+    GROUP BY o.order_id, m.discount_rate, o.order_status
+    order by o.order_id asc
+) AMOUNT;
