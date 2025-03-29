@@ -148,10 +148,11 @@ CREATE TABLE ORDERS_PAYMENT(
 CREATE TABLE MACHINE_TRANSACTION(
     machine_transaction_id NUMBER(12) PRIMARY KEY,
     machine_id NUMBER(3) NOT NULL,
+    branch_id NUMBER(5) NOT NULL,
     payment_method VARCHAR2(10) CHECK (payment_method IN ('Cash', 'E-wallet')),
     price NUMBER(2) NOT NULL,
     created_on DATE DEFAULT SYSDATE NOT NULL, 
-    CONSTRAINT branch_id_fk3 FOREIGN KEY(branch_id) REFERENCES branches(branch_id),
-    CONSTRAINT machine_id_fk2 FOREIGN KEY(machine_id) REFERENCES machines(machine_id)
+    CONSTRAINT machine_id_fk2 FOREIGN KEY(machine_id) REFERENCES machines(machine_id),
+    CONSTRAINT branch_id_fk3 FOREIGN KEY(branch_id) REFERENCES branches(branch_id)
 );
 
