@@ -127,6 +127,7 @@ CREATE TABLE DELIVERY(
     postal_code VARCHAR2(5) NOT NULL,
     pickup_time TIMESTAMP DEFAULT SYSTIMESTAMP NOT NULL,
     dropoff_time TIMESTAMP DEFAULT SYSTIMESTAMP NOT NULL,
+    Price NUMBER(5, 2) NOT NULL,
     CONSTRAINT order_service_id_fk2 FOREIGN KEY (order_service_id) REFERENCES ORDERS_SERVICE (order_service_id)
 );
 
