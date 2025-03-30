@@ -108,7 +108,8 @@ CREATE TABLE ONLINE_WASHDRY (
     price NUMBER(10) NOT NULL,
     CONSTRAINT order_service_id_fk FOREIGN KEY (order_service_id) REFERENCES ORDERS_SERVICE (order_service_id),
     CONSTRAINT order_id_fk2 FOREIGN KEY (order_id) REFERENCES ORDERS (order_id),
-    CONSTRAINT machine_id_fk1 FOREIGN KEY (machine_id) REFERENCES MACHINES (machine_id)
+    CONSTRAINT machine_id_fk1 FOREIGN KEY (machine_id) REFERENCES MACHINES (machine_id),
+    CONSTRAINT chk_temperature CHECK (temperature IN ('Cold', 'Warm', 'HOT'))
 );
 
 -- Ironing Table
@@ -155,9 +156,11 @@ CREATE TABLE MACHINE_TRANSACTION(
     machine_id NUMBER(3) NOT NULL,
     branch_id NUMBER(5) NOT NULL,
     payment_method VARCHAR2(10) CHECK (payment_method IN ('Cash', 'E-wallet')),
+    temperature VARCHAR2(5),
     price NUMBER(2) NOT NULL,
     created_on DATE DEFAULT SYSDATE NOT NULL, 
     CONSTRAINT machine_id_fk2 FOREIGN KEY(machine_id) REFERENCES machines(machine_id),
-    CONSTRAINT branch_id_fk3 FOREIGN KEY(branch_id) REFERENCES branches(branch_id)
+    CONSTRAINT branch_id_fk3 FOREIGN KEY(branch_id) REFERENCES branches(branch_id),
+    CONSTRAINT chk_temperature2 CHECK (temperature IN ('Cold', 'Warm', 'HOT'))
 );
 
