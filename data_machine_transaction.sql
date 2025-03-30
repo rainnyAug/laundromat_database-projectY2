@@ -153,7 +153,6 @@ INSERT INTO MACHINE_TRANSACTION VALUES (machines_trans_id_seq.nextval, 72, 5, 'C
 -- Order ID 49
 INSERT INTO MACHINE_TRANSACTION VALUES (machines_trans_id_seq.nextval, 62, 5, 'Cash', 'Cold', 40, TO_DATE('29-01-2025', 'DD-MM-YYYY'));
 INSERT INTO MACHINE_TRANSACTION VALUES (machines_trans_id_seq.nextval, 70, 5, 'Cash', NULL, 40, TO_DATE('29-01-2025', 'DD-MM-YYYY'));
-
 -- Order ID 50
 INSERT INTO MACHINE_TRANSACTION VALUES (machines_trans_id_seq.nextval, 63, 5, 'Cash', 'Cold', 40, TO_DATE('30-01-2025', 'DD-MM-YYYY'));
 INSERT INTO MACHINE_TRANSACTION VALUES (machines_trans_id_seq.nextval, 71, 5, 'Cash', NULL, 40, TO_DATE('30-01-2025', 'DD-MM-YYYY'));
