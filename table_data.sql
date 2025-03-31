@@ -163,4 +163,3 @@ CREATE TABLE MACHINE_TRANSACTION(
     CONSTRAINT branch_id_fk3 FOREIGN KEY(branch_id) REFERENCES branches(branch_id),
     CONSTRAINT chk_temperature2 CHECK (temperature IN ('Cold', 'Warm', 'HOT'))
 );
-
