@@ -1,4 +1,4 @@
--- Create a query to display the sum of the prices of wash and dry services during January 2025.
+-- Create a query to display the sum of the prices of online wash and dry services during January 2025.
 SELECT s.service_name, SUM(ow.price) AS total_price
 FROM orders o
 JOIN orders_service os ON o.order_id = os.order_id
