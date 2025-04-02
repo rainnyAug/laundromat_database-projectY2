@@ -16,7 +16,7 @@ CREATE TABLE ROLES(
 -- Branches Table
 CREATE TABLE BRANCHES (
     branch_id NUMBER(3) PRIMARY KEY,
-    branch_name VARCHAR2(80) NOT NULL UNIQUE,
+    branch_name VARCHAR2(50) NOT NULL UNIQUE,
     street_address VARCHAR2(120) NOT NULL,
     district VARCHAR2(60) NOT NULL,
     province VARCHAR2(50) NOT NULL,
@@ -35,8 +35,8 @@ CREATE TABLE MEMBERSHIPS (
 -- Customers Table
 CREATE TABLE CUSTOMERS (
     customer_id NUMBER(10) PRIMARY KEY,
-    first_name VARCHAR2(50) NOT NULL,
-    last_name VARCHAR2(50) NOT NULL,
+    first_name VARCHAR2(30) NOT NULL,
+    last_name VARCHAR2(30) NOT NULL,
     phone_num VARCHAR2(10) NOT NULL,
     membership_id VARCHAR2(14) UNIQUE,
     CONSTRAINT mem_id_fk FOREIGN KEY (membership_id) REFERENCES MEMBERSHIPS (membership_id)
@@ -78,8 +78,8 @@ CREATE TABLE CLOTHES(
 -- Employees table
 CREATE TABLE EMPLOYEES(
     employee_id VARCHAR2(25) PRIMARY KEY,
-    first_name VARCHAR2(50) NOT NULL,
-    last_name VARCHAR2(50) NOT NULL,
+    first_name VARCHAR2(30) NOT NULL,
+    last_name VARCHAR2(30) NOT NULL,
     email VARCHAR2(50) NOT NULL UNIQUE,
     phone_num VARCHAR2(10) NOT NULL,
     hire_date DATE DEFAULT SYSDATE NOT NULL,
@@ -135,6 +135,8 @@ CREATE TABLE DELIVERY(
     pickup_time TIMESTAMP DEFAULT SYSTIMESTAMP NOT NULL,
     dropoff_time TIMESTAMP DEFAULT SYSTIMESTAMP NOT NULL,
     Price NUMBER(5, 2) NOT NULL,
+    -- employee_id VARCHAR2(25) NOT NULL,
+    -- delivery_status VARCHAR(20) NOT NULL CHECK (delivery_status IN ('Pre-delivery service', 'In Transit', 'Completed', 'Cancelled')),
     CONSTRAINT order_service_id_fk2 FOREIGN KEY (order_service_id) REFERENCES ORDERS_SERVICE (order_service_id),
     CONSTRAINT order_id_fk3 FOREIGN KEY (order_id) REFERENCES ORDERS (order_id)
 );
