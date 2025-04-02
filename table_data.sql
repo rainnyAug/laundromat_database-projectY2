@@ -17,7 +17,7 @@ CREATE TABLE ROLES(
 CREATE TABLE BRANCHES (
     branch_id NUMBER(3) PRIMARY KEY,
     branch_name VARCHAR2(50) NOT NULL UNIQUE,
-    street_address VARCHAR2(120) NOT NULL,
+    street_address VARCHAR2(100) NOT NULL,
     district VARCHAR2(60) NOT NULL,
     province VARCHAR2(50) NOT NULL,
     postal_code VARCHAR2(5) NOT NULL,
@@ -128,15 +128,16 @@ CREATE TABLE DELIVERY(
     delivery_id NUMBER(12) PRIMARY KEY, 
     order_service_id NUMBER(12) NOT NULL,
     order_id NUMBER(12) NOT NULL,
-    street_address VARCHAR2(120) NOT NULL,
+    street_address VARCHAR2(100) NOT NULL,
     district VARCHAR2(60) NOT NULL,
     province VARCHAR2(50) NOT NULL,
     postal_code VARCHAR2(5) NOT NULL,
     pickup_time TIMESTAMP DEFAULT SYSTIMESTAMP NOT NULL,
     dropoff_time TIMESTAMP DEFAULT SYSTIMESTAMP NOT NULL,
     Price NUMBER(5, 2) NOT NULL,
-    -- employee_id VARCHAR2(25) NOT NULL,
-    -- delivery_status VARCHAR(20) NOT NULL CHECK (delivery_status IN ('Pre-delivery service', 'In Transit', 'Completed', 'Cancelled')),
+    employee_id VARCHAR2(25) NOT NULL,
+    delivery_status VARCHAR(20) NOT NULL CHECK (delivery_status IN ('Pre-delivery service', 'In Transit', 'Completed', 'Cancelled')),
+    CONSTRAINT employee_id_fk FOREIGN KEY (employee_id) REFERENCES EMPLOYEES (employee_id),
     CONSTRAINT order_service_id_fk2 FOREIGN KEY (order_service_id) REFERENCES ORDERS_SERVICE (order_service_id),
     CONSTRAINT order_id_fk3 FOREIGN KEY (order_id) REFERENCES ORDERS (order_id)
 );
