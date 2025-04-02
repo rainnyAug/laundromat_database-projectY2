@@ -16,7 +16,7 @@ CREATE TABLE ROLES(
 -- Branches Table
 CREATE TABLE BRANCHES (
     branch_id NUMBER(3) PRIMARY KEY,
-    branch_name VARCHAR2(50) NOT NULL UNIQUE,
+    branch_name VARCHAR2(30) NOT NULL UNIQUE,
     street_address VARCHAR2(100) NOT NULL,
     district VARCHAR2(60) NOT NULL,
     province VARCHAR2(50) NOT NULL,
