@@ -24,23 +24,19 @@ CREATE TABLE BRANCHES (
     contact_number VARCHAR2(10) NOT NULL UNIQUE
 );
 
--- Memberships Table
-CREATE TABLE MEMBERSHIPS (
-    membership_id VARCHAR2(25) PRIMARY KEY,
-    tier VARCHAR2(10) NOT NULL CHECK (tier IN ('Basic', 'Premium', 'VIP')),
-    discount_rate NUMBER(5,2) NOT NULL,
-    registration_date DATE DEFAULT SYSDATE NOT NULL
-);
-
 -- Customers Table
 CREATE TABLE CUSTOMERS (
     customer_id NUMBER(10) PRIMARY KEY,
     first_name VARCHAR2(30) NOT NULL,
     last_name VARCHAR2(30) NOT NULL,
     phone_num VARCHAR2(10) NOT NULL,
-    membership_id VARCHAR2(14) UNIQUE,
-    CONSTRAINT mem_id_fk FOREIGN KEY (membership_id) REFERENCES MEMBERSHIPS (membership_id)
+    membership_tier VARCHAR2(10) DEFAULT 'None' CHECK (
+        membership_tier IN ('None', 'Bronze', 'Silver', 'Gold', 'Diamond')
+    ),
+    discount_rate NUMBER(5,2) DEFAULT 0,
+    registration_date DATE DEFAULT SYSDATE NOT NULL
 );
+
 
 -- Orders Table
 CREATE TABLE ORDERS (
