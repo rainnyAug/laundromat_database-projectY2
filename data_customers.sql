@@ -48,7 +48,7 @@ INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Samart', 'Saehuang', '0914321
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Somchai', 'Saehuang', '0918762190', 'Bronze', 0.00, TO_DATE('26-05-2024','DD-MM-YYYY'));
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Vichan', 'Sae-O', '0919087654', 'Bronze', 0.00, TO_DATE('1-06-2024','DD-MM-YYYY'));
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Krek', 'Satiantum', '0912675432', 'Bronze', 0.00, TO_DATE('10-06-2024','DD-MM-YYYY'));
-INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Jinatta', 'Sermheng', '0913456781', 'Silver', 0.02,), TO_DATE('18-06-2024','DD-MM-YYYY');
+INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Jinatta', 'Sermheng', '0913456781', 'Silver', 0.02, TO_DATE('18-06-2024','DD-MM-YYYY'));
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Jirayu', 'Chevasupawat', '0915432167', 'Bronze', 0.00, TO_DATE('19-06-2024','DD-MM-YYYY'));
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Yodchai', 'Taothong', '0916789543', 'Bronze', 0.00, TO_DATE('20-06-2024','DD-MM-YYYY'));
 INSERT INTO CUSTOMERS VALUES(cust_id_seq.nextval, 'Siriwan', 'Klaopon', '0919012345', 'Silver', 0.02, TO_DATE('20-06-2024','DD-MM-YYYY'));
