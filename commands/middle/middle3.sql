@@ -1,5 +1,5 @@
 -- Create a query to display the customer_id, name of who uses delivery and iron services with the branch name.
-SELECT DISTINCT c.customer_id, c.first_name|| ' ' ||c.last_name as name, c.membership_id, b.branch_name
+SELECT DISTINCT c.customer_id, c.first_name|| ' ' ||c.last_name as name, c.membership_tier, b.branch_name
 FROM CUSTOMERS c
 JOIN orders o ON c.customer_id = o.customer_id
 JOIN branches b ON o.branch_id = b.branch_id
